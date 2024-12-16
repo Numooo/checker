@@ -14,9 +14,9 @@ names = ['kata', 'dope', 'dray', 'cash', 'dewy', 'drop', 'drug', 'days', 'echo',
   'babe', 'dare', 'rich', 'duff', 'dunk', 'food', 'husk', 'live', 'till',
   'mood', 'kill', 'lime', 'leaf', 'team', 'jobs', 'prez', 'test', 'poor',
   'help', 'magi', 'heal', 'here', 'hack', 'year', 'kiss', 'loto',
-  'dork', 'jean', 'howl', 'oink', 'papa', 'exec', 'anil',
+  'dork', 'jean', 'howl', 'oink', 'papa', 'exec', 'anil', 'duro',
   'dorb', 'mads', 'marc','ponk','rudy','skee','smit','taki','woes', 'ziff',
-  'sjoe', 'dopy', 'euks', 'cord', 'slut', 'feed', 'agog', 'guns', 'clit', 'nide', 'rahs', 'dame']
+  'dopy', 'euks', 'cord', 'slut', 'feed', 'agog', 'guns', 'clit', 'nide', 'rahs', 'dame']
 available = []
 lock = threading.Lock()
 event = threading.Event()
