@@ -9,15 +9,19 @@ chat_id = 5016901672  # Replace with your actual chat ID
 
 bot = telebot.TeleBot(bot_token)
 
-names = ['kata', 'dope', 'dray', 'cash', 'dewy', 'drop', 'drug', 'days', 'echo',
-  'sept', 'easy', 'paid', 'swag', 'sett', 'date', 'cuff', 'rage', 'rock',
-  'babe', 'dare', 'rich', 'duff', 'dunk', 'food', 'husk', 'live', 'till',
-  'mood', 'kill', 'lime', 'leaf', 'team', 'jobs', 'prez', 'test', 'poor',
-  'help', 'magi', 'heal', 'here', 'hack', 'year', 'kiss', 'loto',
-  'dork', 'jean', 'howl', 'oink', 'papa', 'exec', 'anil',
-  'dorb', 'mads', 'marc','ponk','rudy','skee','smit','taki','woes',
-  'ziff', 'cord', 'feed', 'agog', 'guns', 'clit', 'nide', 'rahs', 'dame',
-  'duro', 'boyo', 'itas', 'wins', 'mora', 'home', 'cums', 'chiz']
+names = [
+  "BABE", "ATES", "BOYO", "CASH", "CHIZ", "CORD", "CUFF", "CUMS",
+  "DARE", "DAME", "DATE", "DAYS", "DEWY", "DORK", "DOPE", "DRAY",
+  "DORB", "DRUG", "DROP", "DUFF", "EASY", "DURO", "DUNK", "ECHO",
+  "ELLS", "EXEC", "EUKS", "FEED", "FOOD", "GHEE", "GUNS", "HACK",
+  "HELP", "HEAL", "HERE", "HOME", "HOWL", "HUSK", "ITAS", "JEAN",
+  "JOBS", "KATA", "KILL", "KISS", "LEAF", "LIME", "LIVE", "LOWT",
+  "MADS", "MAGI", "MACK", "MARC", "MOOD", "MORA", "NIDE", "OINK",
+  "PAID", "PAPA", "PONK", "POOR", "PREZ", "RAGE", "RICH", "ROCK",
+  "RUDY", "SAFT", "SEPT", "SETT", "SKEE", "SMIT", "SUNI", "SWAG",
+  "TAKI", "TEAM", "TAYS", "TEST", "TILL", "WINS", "WOES", "YEAR",
+  "ZIFF", "YUFT", "ANIL"
+]
 available = []
 lock = threading.Lock()
 event = threading.Event()
