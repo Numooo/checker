@@ -28,7 +28,7 @@ const checkedNames = [
     'rich', 'rock', 'rook', 'rudy', 'saft', 'sept',
     'sett', 'skee', 'smit', 'suni', 'swag', 'taki',
     'tays', 'team', 'test', 'till', 'waid', 'wins',
-    'woes', 'year', 'yuft', 'ziff', 'asdd'
+    'woes', 'year', 'yuft', 'ziff'
 ];
 
 const clientId = 'kimne78kx3ncx6brgo4mv6wki5h1ko';
