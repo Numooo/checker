@@ -3,7 +3,7 @@ const fetch = require('node-fetch');
 const config = require('./config.json');
 const keep_alive = require('./keep_alive.js');
 
-const CHECK_INTERVAL = 3 * 60 * 1000;
+const CHECK_INTERVAL = 30 * 60 * 1000;
 
 const namesRaw = fs.readFileSync('names.txt', 'utf-8')
     .split('\n')
